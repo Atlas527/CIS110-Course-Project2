@@ -33,7 +33,7 @@ print(
     f"Four score and seven...apologies, wrong story. We begin this story of {heroName} the Dwarf Paladin outside the city of {cityName}. You see, life as a dwarf wasn't always easy for {heroName}. ")
 print(f"He was always the center of short jokes in the dwarven community, seeing as he had the misfortune of being a shorter than average dwarf. Though he was vertically challenged, he had a heart of gold and would do unspeakable things for food, as you'll soon discover.")
 print(
-    f"Often discribed as 'Strong, sturdy, and short. {heroName} was always looking for his next pint, and someone to smite.")
+    f"Often described as 'Strong, sturdy, and short. {heroName} was always looking for his next pint, and someone to smite.")
 
 input(f"\nPress the enter key to continue... ")
 print(f"As {heroName} and his valiant steed of glory, {oxName} were traveling down a winding road through the Valley of Forlorn Fairytales, not far from the city of {cityName}, {heroName} was stricken by an instatiable hunger.")
