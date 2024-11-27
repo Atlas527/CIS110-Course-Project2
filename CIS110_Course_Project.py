@@ -56,8 +56,32 @@ print("'It is uncertain whether her leave was intentional or if she has befallen
 
 print(f"{heroName} stared deeply at this peculiar talking bird, and after a brief pause said 'No.' and grunted at {oxName} to continue down the road.")
 print(f"As {heroName} and {oxName} began walking away the crow let out a sigh and said 'I don't have much to offer you, good Sir, but isn't the well-being of Princess {princessName} enough for your efforts?'")
-print(f"To which{heroName} again, said 'No.'")
+print(f"To which {heroName} again, said 'No.'")
 print(f"'Fine' said {crowName}. 'It is absolutely imperative that we find the Princess. What do you require as payment?'")
 input(f"\nPress the enter key to continue... ")
-
+# Hero agrees to assist crow.
 print(f"Without hesitation {heroName} replied 'Listen, magical bird-man...thing. I am so hungry I almost ate me ox. If it wasn't a 15 mile walk back to {cityName} I'd be roasting this beefy bovine at this very moment. So unless you've got food, I'm not interested in ye games or ye Princess. Leave me be before I stick an arrow in ye. '")
+print(f"{crowName} took a pause before explaining the importance of returning the Princess to {cityName}, and urged {heroName} once more to assist.")
+print(
+    f"It was only after a very lengthy discussion that {heroName} agreed to locate said Princess in exchange for one thing.")
+print("The one thing his heart so desperately desired. The juciest, most savory smoked turkey leg that dwarven-kind has ever made.")
+input("\nPress the enter key to continue... ")
+
+# Player choice of path to take.
+print(
+    f"'Very well' said {crowName}. 'Before you there are two paths, both of which lead to the presumed location of the Princess.")
+print("'To your left you will see a path leading through the Rolling Hills of Randomness. You should take caution here as the dangers are, well...random. There's nothing I can say to prepare you for the things you may encounter there.' ")
+print("'The path you see to your right will take you through the Mountains of Mediocrity. The name itself should impose threats of the mediocre nature, but I can fly so that none of that concerns me.' said the crow.")
+print(
+    f"'Nevertheless, time is of the essence and you must make haste. Will you, {heroName} take the path through the Rolling Hills of Randomness?'")
+
+pathChoice = input("\nEnter yes or no:")
+while len(pathChoice) == 0:
+    pathChoice = input(
+        "Come on now, it's a yes or no question. Please enter yes or no:")
+if pathChoice.lower() == "yes":
+    print("Very well, through the Rolling Hills of Randomness you must traverse dangers unknown and threats uncertain. Good luck.")
+else:
+    print("I see. The Mountains of Mediocrity do seem a bit more fitting for a hero of your stature. Good luck.")
+
+input("Press the enter key to continue...")
