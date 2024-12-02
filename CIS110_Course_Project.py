@@ -5,11 +5,19 @@ print(f"Not just any adventurer or hero, but one of minute scale and enourmous h
 input(f"\nPress the enter key to continue...")
 print(f"Before we depart for our grand adventure, I must first ask you some questions.")
 input(f"\nPress the enter key to continue...")
-# Player Variables
-heroName = input(
-    "\nThis is a story of a miniature hero doing things of gargantuan importance. What should this hero be called?: ")
-cityName = input(
-    f"Very well, {heroName} it is. Interesting choice, and from what city does {heroName} hail?: ")
+
+
+# Player Variable
+ heroName = input("\nThis is a story of a miniature hero doing things of gargantuan importance. What should this hero be called?: ")
+while len(heroName) == 0:
+   heroName = input(f"The hero has to have a name. Come on. What's their name?: ")
+    
+#Second Question
+                     
+cityName = input(f"Very well, {heroName} it is. Interesting choice, and from what city does {heroName} hail?: ")
+while len(cityName) == 0:
+    cityName = input(f"...Really? From where does this hero hail?!?!: ")
+    
 print(
     f"Hmm....Well...As fate would have it, {heroName} from {cityName} is unaware that they are about to be sent on the most epic quest in the history of...quests.")
 print("Wow...that's redudant...almost as reduntant as the ellipses that are being used for pause and dramatic effect...")
